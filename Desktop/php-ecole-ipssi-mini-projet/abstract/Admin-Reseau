@@ -1,0 +1,13 @@
+<?php
+namespace App;
+
+use App\Abstract\Abstract-Matiere-Principal;
+
+class Admin-Reseau extends AbstractMatiere-principal{
+
+    public function enseigne par microsoft-teams() : bool
+    {
+        print_r("Je prend des cours admin et reseau sur teams");
+        return true;
+    }
+

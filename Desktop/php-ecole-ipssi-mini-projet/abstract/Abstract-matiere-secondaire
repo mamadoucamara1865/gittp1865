@@ -1,0 +1,13 @@
+<?php
+namespace App\Abstract;
+
+use App\Abstract\Abstract-matiere-secondaire;
+
+abstract class Abstract-matiere-secondaire extends AbstractMatiere{
+   abstract public function enseigne a distance() : bool;
+   abstract public function enseigne par correspondance() : bool;
+   abstract public function enseigne en fonction du temps de l'etudiant() : bool;
+
+
+   <mysql
+   

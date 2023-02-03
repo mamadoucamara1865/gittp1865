@@ -1,0 +1,12 @@
+<?php
+namespace App;
+
+use App\Abstract\Abstract-Matiere-Principal;
+
+class Cybersecurite extends AbstractMatiere-principal{
+
+    public function enseigne aux campus() : bool
+    {
+        print_r("Je prend des cours de cybersecurite' au campus");
+        return true;
+    }

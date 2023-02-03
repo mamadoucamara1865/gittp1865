@@ -1,0 +1,9 @@
+<?php
+namespace App\Abstract;
+
+use App\Abstract\Abstract-matiere-principal;
+
+abstract class Abstract-matiere-principal extends AbstractMatiere{
+   abstract public function enseigne par microsoft teams() : bool;
+   abstract public function enseigne aux campus() : bool;
+   abstract public function enseigne en alternance() : bool;

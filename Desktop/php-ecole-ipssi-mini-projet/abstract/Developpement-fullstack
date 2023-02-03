@@ -1,0 +1,12 @@
+<?php
+namespace App;
+
+use App\Abstract\Abstract-Matiere-Principal;
+
+class Developpement-fullstack extends AbstractMatiere-principal{
+
+    public function enseigne en alternance() : bool
+    {
+        print_r("Je prend des cours de developpement-fullstack en alternance");
+        return true;
+    }
